@@ -1,0 +1,23 @@
+{
+   "subject":"acct:duremar@mindly.social",
+   "aliases":[
+      "https://mindly.social/@duremar",
+      "https://mindly.social/users/duremar"
+   ],
+   "links":[
+      {
+         "rel":"http://webfinger.net/rel/profile-page",
+         "type":"text/html",
+         "href":"https://mindly.social/@duremar"
+      },
+      {
+         "rel":"self",
+         "type":"application/activity+json",
+         "href":"https://mindly.social/users/duremar"
+      },
+      {
+         "rel":"http://ostatus.org/schema/1.0/subscribe",
+         "template":"https://mindly.social/authorize_interaction?uri={uri}"
+      }
+   ]
+}
